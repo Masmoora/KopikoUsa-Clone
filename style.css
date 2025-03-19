@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+/*-----------------------------Header----------------------*/
+.head{
+    background-color: black;
+    color:  #b7b7b7;
+    text-align: center;
+}
+.nav-menu{
+    text-decoration: none;
+    color: #b7b7b7;
+    transition: color 0.3s ease-in-out;
+}
+.nav-menu:hover{
+    color: rgb(243, 60, 60);
+    cursor: pointer;
+}
+.menu{
+    padding: 21px;
+    border-top: #b7b7b7 solid 0.01px;
+}
+.title{
+    color: #b7b7b7;
+    padding-top: 40px;   
+}
+.title-main{
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #b7b7b7;
+    transition: color 0.3s ease-in-out;
+}
+.title-main:hover{
+    color: rgb(243, 60, 60);
+}
+.title-2{
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 32px;
+}
+/*----------------------Main-------------------------------*/
+.image{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.others{
+    background-color: black;
+    padding-top: 150px;
+    text-align: center;
+}
+.others p{
+    font-family: "Roboto", Sans-serif;
+    color: #828181;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6
+}
+
+.other-details img{
+    padding-top: 45px;
+    height: 100%;
+    width: 850px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+.fb{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(56, 72, 123);    
+}
+.fb svg{
+    color: white;
+    margin-top: 3.5px;
+}
+.insta{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(71, 74, 85);
+}
+.linkedin{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(92, 127, 255);
+}
+.utube{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+.insta svg{
+    color: white;
+    margin-top: 4px;
+}
+.linkedin svg{
+    color: white;
+    margin-top: 3.5px;
+}
+.utube svg{
+    color: white;
+    margin-top: 2px;
+}
+/*--------------------------------Footer----------------------------------*/
+.foot{
+    display: flex;
+    gap: 5px;
+    background-color: black;
+    justify-content: center;
+    font-family: "Roboto", Sans-serif;
+    padding-bottom: 50px;
+    font-size: 13px;
+}
+.foot p{
+    color: #828181;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.foot-hover:hover{
+    text-decoration: underline;
+    color: rgb(243, 60, 60);
+}
